@@ -74,7 +74,7 @@ function Hero() {
           as="h1"
           id="hero-title"
           className="hero__title"
-          text="Licensed general contractor in Miami and South Florida"
+          text="Sunray Contracting"
           trigger="mount"
           active={start}
           delay={0.42}
