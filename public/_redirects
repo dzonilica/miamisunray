@@ -1,0 +1,11 @@
+/services-3      /services   301
+/about-3         /about      301
+/contact-4       /contact    301
+/book-online     /contact    301
+/general-4       /financing  301
+/payments        /financing  301
+/quote           /contact    301
+/process         /approach   301
+/privacy-policy  /privacy    301
+/cookie-policy   /cookies    301
+/*               /index.html 200

@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# build output (regenerate with `npm run build`)
+dist/
+.vite/
+
+# local env / editor
+.env
+.env.*
+*.local
+.DS_Store
+Thumbs.db

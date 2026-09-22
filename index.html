@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f2ed" />
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="apple-mobile-web-app-title" content="Sunray" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <title>General Contractor in Miami &amp; South Florida | Sunray Contracting</title>
+    <meta
+      name="description"
+      content="Licensed and insured general contractor in Miami. Custom homes, additions, impact windows, roofing, kitchen and bath remodeling and commercial build-outs across Miami-Dade, Broward and Palm Beach. Free quote: (786) 928-5140."
+    />
+    <link rel="canonical" href="https://www.sunraymiami.com/" />
+
+    <meta name="geo.region" content="US-FL" />
+    <meta name="geo.placename" content="Miami, Florida" />
+
+    <meta property="og:site_name" content="Sunray Contracting" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="General Contractor in Miami &amp; South Florida | Sunray Contracting"
+    />
+    <meta
+      property="og:description"
+      content="Licensed and insured general contractor in Miami. Custom homes, additions, impact windows, roofing, kitchen and bath remodeling and commercial build-outs across South Florida."
+    />
+    <meta property="og:url" content="https://www.sunraymiami.com/" />
+    <meta property="og:image" content="https://www.sunraymiami.com/media/hero-poster.jpg" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
+    <meta
+      property="og:image:alt"
+      content="Aerial view of a South Florida property built by Sunray Contracting"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="General Contractor in Miami &amp; South Florida | Sunray Contracting"
+    />
+    <meta
+      name="twitter:description"
+      content="Licensed and insured general contractor in Miami. Custom homes, additions, impact windows, roofing and full renovations across South Florida."
+    />
+    <meta name="twitter:image" content="https://www.sunraymiami.com/media/hero-poster.jpg" />
+
+    <link rel="icon" type="image/png" href="/media/sunray-logo-dark.png" />
+    <link rel="apple-touch-icon" href="/media/sunray-logo-dark.png" />
+
+    <!--
+      The hero poster paints before anything else on the home page: the film
+      runs at every width now, and the poster is what stands in its place until
+      the first frame decodes. Preloading it has to happen before the bundle
+      renders the hero, so it is done here rather than in the component.
+
+      One fixed file, not a srcset: this is the same URL the <video poster>
+      attribute carries, and that attribute takes a single image. Matching it
+      exactly is what makes the preload a cache hit instead of a second fetch.
+    -->
+    <script>
+      (function () {
+        if (location.pathname.replace(/\/+$/, "") !== "") return;
+
+        var link = document.createElement("link");
+        link.rel = "preload";
+        link.as = "image";
+        link.type = "image/webp";
+        link.href = "/media/hero-poster-960.webp";
+        link.fetchPriority = "high";
+        document.head.appendChild(link);
+      })();
+    </script>
+
+    <script type="application/ld+json" data-org-schema="true">
+      {
+        "@context": "https://schema.org",
+        "@type": ["GeneralContractor", "HomeAndConstructionBusiness"],
+        "@id": "https://www.sunraymiami.com/#organization",
+        "name": "Sunray Contracting",
+        "legalName": "Sunray Contracting Miami",
+        "url": "https://www.sunraymiami.com/",
+        "telephone": "+1-786-928-5140",
+        "email": "info@sunraymiami.com",
+        "image": "https://www.sunraymiami.com/media/hero-poster.jpg",
+        "logo": "https://www.sunraymiami.com/media/sunray-logo-dark.png",
+        "description": "Licensed and insured general contractor serving Miami-Dade, Broward and Palm Beach counties, with more than 20 years of residential and commercial construction and renovation.",
+        "foundingDate": "2003",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Miami",
+          "addressRegion": "FL",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
+          { "@type": "AdministrativeArea", "name": "Broward County" },
+          { "@type": "AdministrativeArea", "name": "Palm Beach County" }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday"],
+            "opens": "09:00",
+            "closes": "19:00"
+          }
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Sales",
+          "telephone": "+1-786-928-5140",
+          "email": "info@sunraymiami.com",
+          "areaServed": "US-FL",
+          "availableLanguage": ["English", "Spanish"]
+        },
+        "sameAs": ["https://www.instagram.com/sunraymiami/"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
