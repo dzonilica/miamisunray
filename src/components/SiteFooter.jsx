@@ -13,8 +13,8 @@ export default function SiteFooter() {
             <BrandMark variant="dark" />
           </a>
           <p>
-            Licensed and insured general contractor in Miami. Construction, renovation and
-            commercial build-outs across Miami-Dade, Broward and Palm Beach.
+            Licensed and insured general contractor in Miami. Construction, renovation,
+            stucco and painting across Miami-Dade, Broward and Palm Beach.
           </p>
         </div>
 

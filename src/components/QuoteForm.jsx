@@ -111,9 +111,10 @@ export default function QuoteForm() {
             <option>Kitchen or bathroom remodel</option>
             <option>Impact windows and doors</option>
             <option>Roofing or exterior</option>
+            <option>Stucco or painting</option>
             <option>Pool, driveway or site work</option>
-            <option>Solar, AC or insulation</option>
-            <option>Commercial build-out</option>
+            <option>AC or insulation</option>
+            <option>Commercial stucco, paint or concrete</option>
             <option>Other</option>
           </select>
         </label>

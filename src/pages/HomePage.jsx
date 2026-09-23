@@ -88,9 +88,9 @@ function Hero() {
           animate={start ? { opacity: 1, y: 0 } : { opacity: 0, y: 18 }}
           transition={{ duration: 0.9, delay: 0.76, ease: EASE }}
         >
-          Custom homes, additions, impact windows, roofing, kitchen and bath remodeling and
-          commercial build-outs across Miami-Dade, Broward and Palm Beach. Licensed, insured,
-          and building here for more than 20 years.
+          Custom homes, additions, impact windows, roofing, stucco and kitchen and bath
+          remodeling across Miami-Dade, Broward and Palm Beach. Licensed, insured, and
+          building here for more than 20 years.
         </motion.p>
 
         <motion.div

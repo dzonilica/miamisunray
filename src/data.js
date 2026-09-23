@@ -19,9 +19,9 @@ export const services = [
     slug: "commercial-projects",
     name: "Commercial Projects",
     group: "Build",
-    line: "Retail, office and restaurant build-outs and tenant improvements, permitted and inspected through to certificate of occupancy.",
+    line: "For commercial properties we take on three trades: stucco, interior and exterior painting, and concrete finishing — retail, office, restaurant and industrial, worked around the hours the business keeps.",
     image: "/media/services/commercial-projects/01.jpg",
-    alt: "Commercial build-out project by Sunray Contracting in South Florida",
+    alt: "Commercial property in South Florida finished by Sunray Contracting",
   },
   {
     slug: "impact-windows-doors",
@@ -38,6 +38,14 @@ export const services = [
     line: "Tile, shingle, metal and flat roof replacement and repair, with underlayment, secondary water barrier and flashing detailed to Florida Building Code.",
     image: "/media/services/roofing/01.jpg",
     alt: "New tile roof installed by a Miami roofing contractor",
+  },
+  {
+    slug: "stucco",
+    name: "Stucco",
+    group: "Exterior",
+    line: "Stucco on new construction and re-stucco over existing walls: lath, scratch and brown coat, then the finish texture floated to match the rest of the building.",
+    image: "/media/services/stucco/01.jpg",
+    alt: "Stucco finish on the exterior gable wall of a South Florida home",
   },
   {
     slug: "pools",
@@ -78,14 +86,6 @@ export const services = [
     line: "Interior and exterior painting: pressure wash, patch, caulk, prime, then two finish coats in acrylic or elastomeric.",
     image: "/media/services/painting/01.jpg",
     alt: "Painter rolling a finish coat on an interior wall",
-  },
-  {
-    slug: "solar",
-    name: "Solar",
-    group: "Systems",
-    line: "Roof-mounted solar arrays with engineered attachment, inverter install and the utility interconnection paperwork filed for you.",
-    image: "/media/services/solar/01.jpg",
-    alt: "Solar panel array installed on a South Florida roof",
   },
   {
     slug: "ac-and-ducts",
@@ -157,9 +157,9 @@ export const serviceGroupOrder = [
 /* Heading is what the section is called in search; intro is the sentence under it. */
 const serviceGroupHeadings = {
   Build: "New construction and additions",
-  Exterior: "Roofing, impact windows and exterior work",
+  Exterior: "Roofing, stucco, impact windows and exterior work",
   Interiors: "Kitchen, bath and interior remodeling",
-  Systems: "Solar, air conditioning and insulation",
+  Systems: "Air conditioning and insulation",
   "Site Work": "Excavation, demolition and concrete",
   Planning: "Permits and engineering",
 };
@@ -167,10 +167,10 @@ const serviceGroupHeadings = {
 export const serviceGroupIntros = {
   Build: "Ground-up construction and new square footage for homes and businesses across South Florida.",
   Exterior:
-    "The building envelope — roof, glazing, doors and the ground around them — detailed for Florida wind and water loads.",
+    "The building envelope — roof, walls, glazing, doors and the ground around them — detailed for Florida wind and water loads.",
   Interiors:
     "Kitchens, bathrooms and whole-home renovation, taken from demolition through to the final coat of paint.",
-  Systems: "Solar, HVAC and insulation: the systems that decide what a building costs to run every month.",
+  Systems: "HVAC and insulation: the systems that decide what a building costs to run every month.",
   "Site Work":
     "Excavation, demolition, concrete and driveways — the ground and the structure it has to carry.",
   Planning:
@@ -191,8 +191,8 @@ const serviceGroupCovers = {
     alt: "Bedroom finished in a completed Miami interior renovation",
   },
   Systems: {
-    image: "/media/services/solar/01.jpg",
-    alt: "Solar array installed across a South Florida roof",
+    image: "/media/services/ac-and-ducts/01.jpg",
+    alt: "New air conditioning duct work run above a ceiling in Miami",
   },
   "Site Work": {
     image: "/media/services/excavation/01.jpg",
@@ -322,13 +322,13 @@ export const routeMeta = {
   "/": {
     title: "General Contractor in Miami & South Florida | Sunray Contracting",
     description:
-      "Licensed and insured general contractor in Miami. Custom homes, additions, impact windows, roofing, kitchen and bath remodeling and commercial build-outs across Miami-Dade, Broward and Palm Beach. Free quote: (786) 928-5140.",
+      "Licensed and insured general contractor in Miami. Custom homes, additions, impact windows, roofing, stucco, painting and kitchen and bath remodeling across Miami-Dade, Broward and Palm Beach. Free quote: (786) 928-5140.",
     label: "Home",
   },
   "/about": {
     title: "About Sunray Contracting | Licensed Miami Contractor, 20+ Years",
     description:
-      "Sunray Contracting is a licensed and insured South Florida construction company with more than 20 years building homes, additions and commercial projects across Miami-Dade, Broward and Palm Beach.",
+      "Sunray Contracting is a licensed and insured South Florida construction company with more than 20 years building homes and additions across Miami-Dade, Broward and Palm Beach.",
     label: "About",
   },
   "/approach": {
@@ -340,7 +340,7 @@ export const routeMeta = {
   "/services": {
     title: "Construction & Renovation Services in Miami | Sunray Contracting",
     description:
-      "18 services under one contract: custom homes, additions, impact windows and doors, roofing, pools, kitchen and bath remodeling, solar, HVAC, concrete, excavation, demolition, permits and engineering across South Florida.",
+      "18 services under one contract: custom homes, additions, impact windows and doors, roofing, stucco, pools, kitchen and bath remodeling, painting, HVAC, concrete, excavation, demolition, permits and engineering across South Florida.",
     label: "Services",
   },
   "/financing": {

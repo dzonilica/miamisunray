@@ -104,9 +104,10 @@ export default function ContactPage() {
             />
             <Reveal delay={0.12}>
               <p className="lead">
-                Residential and commercial work in {serviceAreas.counties.join(", ")}, from
-                Homestead up to West Palm Beach. If you are outside that, ask anyway and we
-                will tell you honestly whether we are the right call.
+                Residential work of every kind, and commercial stucco, painting and concrete,
+                in {serviceAreas.counties.join(", ")}, from Homestead up to West Palm Beach. If
+                you are outside that, ask anyway and we will tell you honestly whether we are
+                the right call.
               </p>
             </Reveal>
           </div>

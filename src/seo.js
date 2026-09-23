@@ -31,7 +31,7 @@ export function organizationNode() {
     image: `${site.origin}/media/hero-poster.jpg`,
     logo: `${site.origin}/media/sunray-logo-dark.png`,
     description:
-      "Licensed and insured general contractor serving Miami-Dade, Broward and Palm Beach counties, with more than 20 years of residential and commercial construction and renovation.",
+      "Licensed and insured general contractor serving Miami-Dade, Broward and Palm Beach counties, with more than 20 years of residential construction and renovation, plus commercial stucco, painting and concrete.",
     foundingDate: "2003",
     priceRange: "$$",
     areaServed: [

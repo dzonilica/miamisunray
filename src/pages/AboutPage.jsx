@@ -9,7 +9,7 @@ import SplitText from "../components/SplitText";
 import { SIZES } from "../media";
 
 const facts = [
-  ["Trade", "General contracting: residential and commercial construction and renovation"],
+  ["Trade", "General contracting: residential construction and renovation, plus commercial stucco, painting and concrete"],
   ["Experience", "More than 20 years building in South Florida"],
   ["Licensing", "Licensed and fully insured in the State of Florida"],
   ["Coverage", "Miami-Dade, Broward and Palm Beach counties"],

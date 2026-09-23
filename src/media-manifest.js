@@ -646,19 +646,7 @@ export const mediaVariants = {
       1440
     ]
   },
-  "/media/services/solar/01.jpg": {
-    "avif": [
-      480,
-      960,
-      1440
-    ],
-    "webp": [
-      480,
-      960,
-      1440
-    ]
-  },
-  "/media/services/solar/02.jpg": {
+  "/media/services/stucco/01.jpg": {
     "avif": [
       480,
       960,
